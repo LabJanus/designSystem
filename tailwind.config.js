@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-          sans: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-          mono: ['var(--default-mono-font-family)']
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        mono: ['var(--default-mono-font-family)']
       },
       colors: {
         primary: "#38BDF8",
@@ -25,28 +25,18 @@ module.exports = {
         md: "12px",
         lg: "20px"
       }
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1.5rem',
+        lg: '2rem'
+      }
     }
   },
-    
-    module.exports = {
-      theme: {
-        container: {
-          center: true,
-          padding: {
-            DEFAULT: '1rem',
-            sm: '1.5rem',
-            lg: '2rem',
-          },
-        },
-        // ...mevcut extend
-      },
-      // content, plugins vb.
-    }
-
-    
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography')
   ]
 };
-
