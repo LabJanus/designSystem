@@ -29,11 +29,5 @@
     }
   },
 
-  "postCreateCommand": "npm install",
-
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "18"
-    }
-  }
+  "postCreateCommand": "npm install"
 }

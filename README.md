@@ -8,7 +8,7 @@ A modern design system built with Tailwind CSS.
 
 Click the button below to open this project in GitHub Codespaces:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=LabJanus/designSystem)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/LabJanus/designSystem)
 
 **Note:** If you encounter Codespaces budget limits, see [CODESPACES.md](./CODESPACES.md) for solutions.
 
