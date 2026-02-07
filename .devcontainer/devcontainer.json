@@ -17,8 +17,8 @@
 
   "hostRequirements": {
     "cpus": 2,
-    "memory": "4gb",
-    "storage": "32gb"
+    "memory": "4GB",
+    "storage": "32GB"
   },
 
   "forwardPorts": [3000],
